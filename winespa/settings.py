@@ -29,6 +29,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
     # Third-party apps
     'rest_framework',
     'rest_framework_simplejwt',
@@ -37,8 +38,29 @@ INSTALLED_APPS = [
     'simple_history',
     'corsheaders',
     'drf_spectacular',
-    # Local apps
+    
+    # Local apps - TODAS ESTAS:
     'api',
+    'api.usuarios',
+    'api.roles',
+    'api.abastecimientos',
+    'api.authentication',
+    'api.base',
+    'api.categoriainsumos',
+    'api.citas',
+    'api.clientes',
+    'api.codigorecuperacion',
+    'api.compras',
+    'api.comprahasinsumos',
+    'api.insumos',
+    'api.insumoshasabastecimientos',
+    'api.liquidaciones',
+    'api.manicuristas',
+    'api.novedades',
+    'api.proveedores',
+    'api.servicios',
+    'api.utils',
+    'api.ventaservicios',
 ]
 
 MIDDLEWARE = [
@@ -154,7 +176,7 @@ SIMPLE_JWT = {
     'USER_ID_CLAIM': 'user_id',
 }
 
-AUTH_USER_MODEL = 'api.Usuario'
+AUTH_USER_MODEL = 'usuarios.Usuario'
 
 # Email Configuration
 # https://docs.djangoproject.com/en/5.2/ref/settings/#email-backend
