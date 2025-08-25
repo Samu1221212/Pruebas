@@ -26,7 +26,7 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado:
 
 1. Clonar el repositorio
    ```bash
-   git clone https://github.com/usuario/winespa.git](https://github.com/Samu1221212/Pruebas)
+   git clone [https://github.com/usuario/winespa.git](https://github.com/Samu1221212/Pruebas)
    cd winespa
 
 2. Instalar dependencias
